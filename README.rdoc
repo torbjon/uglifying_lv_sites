@@ -8,11 +8,11 @@
 
 == Rezults
 
-====SS==================================== 
-*7 js files
-*61 Kb total size
-*55 Kb minimized size
-*6 Kb optimized
+=SS
+* 7 js files
+* 61 Kb total size
+* 55 Kb minimized size
+* 6 Kb optimized
 
 ====TVNET==================================== 
 15 js files
