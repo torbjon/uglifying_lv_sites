@@ -1,8 +1,8 @@
 == How it works
 - Download all js files from site source
-- Uglify each
 - Count js files
-- Show full js size, uglified and diff
+- Compress js files
+- Show total uncompressed js size, compressed and diff
 
 
 == Install and run
