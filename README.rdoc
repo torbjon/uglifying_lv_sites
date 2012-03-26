@@ -1,4 +1,8 @@
-== What for
+== How it works
+- Download all js files from site source
+- Uglify each
+- Count js files
+- Show full js size, uglified and diff
 
 
 == Install and run
