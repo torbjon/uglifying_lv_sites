@@ -40,9 +40,9 @@ def get_js_sizes(title, url)
   end
 
   rezult += js_count.to_s + " js files\n"
-  rezult += (total_max/1024).to_s + " Kb total size\n"
-  rezult += (total_min/1024).to_s + " Kb minimized size\n"
-  rezult += ((total_max - total_min)/1024).to_s + " Kb optimized\n"
+  rezult += (total_max/1024).to_s + " Kb uncompressed size\n"
+  rezult += (total_min/1024).to_s + " Kb compressed size\n"
+  rezult += ((total_max - total_min)/1024).to_s + " Kb diff\n"
 end
 
 puts get_js_sizes("SS", "http://www.ss.lv")

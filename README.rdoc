@@ -14,54 +14,54 @@
 
 === SS
 * 7 js files
-* 61 Kb total size
-* 55 Kb minimized size
-* 6 Kb optimized
+* 61 Kb uncompressed size
+* 55 Kb compressed size
+* 6 Kb diff
 
 === TVNET
 * 15 js files
-* 132 Kb total size
-* 115 Kb minimized size
-* 16 Kb optimized
+* 132 Kb uncompressed size
+* 115 Kb compressed size
+* 16 Kb diff
 
 === INBOX
 * 14 js files
-* 389 Kb total size
-* 370 Kb minimized size
-* 19 Kb optimized
+* 389 Kb uncompressed size
+* 370 Kb compressed size
+* 19 Kb diff
 
 === DELFI
 * 19 js files
-* 217 Kb total size
-* 192 Kb minimized size
-* 24 Kb optimized
+* 217 Kb uncompressed size
+* 192 Kb compressed size
+* 24 Kb diff
 
 === 1188
 * 11 js files
-* 346 Kb total size
-* 313 Kb minimized size
-* 32 Kb optimized
+* 346 Kb uncompressed size
+* 313 Kb compressed size
+* 32 Kb diff
 
 === APOLLO
 * 17 js files
-* 237 Kb total size
-* 195 Kb minimized size
-* 41 Kb optimized
+* 237 Kb uncompressed size
+* 195 Kb compressed size
+* 41 Kb diff
 
 === KASJAUNS
 * 7 js files
-* 237 Kb total size
-* 179 Kb minimized size
-* 57 Kb optimized
+* 237 Kb uncompressed size
+* 179 Kb compressed size
+* 57 Kb diff
 
 === DRAUGIEM
 * 9 js files
-* 310 Kb total size
-* 231 Kb minimized size
-* 79 Kb optimized
+* 310 Kb uncompressed size
+* 231 Kb compressed size
+* 79 Kb diff
 
 === SPOKI
 * 15 js files
-* 542 Kb total size
-* 445 Kb minimized size
-* 96 Kb optimized
+* 542 Kb uncompressed size
+* 445 Kb compressed size
+* 96 Kb diff
