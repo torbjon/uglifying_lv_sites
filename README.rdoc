@@ -8,56 +8,56 @@
 
 == Rezults
 
-=SS
+=== SS
 * 7 js files
 * 61 Kb total size
 * 55 Kb minimized size
 * 6 Kb optimized
 
-====TVNET==================================== 
-15 js files
-132 Kb total size
-115 Kb minimized size
-16 Kb optimized
+=== TVNET
+* 15 js files
+* 132 Kb total size
+* 115 Kb minimized size
+* 16 Kb optimized
 
-====INBOX==================================== 
-14 js files
-389 Kb total size
-370 Kb minimized size
-19 Kb optimized
+=== INBOX
+* 14 js files
+* 389 Kb total size
+* 370 Kb minimized size
+* 19 Kb optimized
 
-====DELFI==================================== 
-19 js files
-217 Kb total size
-192 Kb minimized size
-24 Kb optimized
+=== DELFI
+* 19 js files
+* 217 Kb total size
+* 192 Kb minimized size
+* 24 Kb optimized
 
-====1188==================================== 
-11 js files
-346 Kb total size
-313 Kb minimized size
-32 Kb optimized
+=== 1188
+* 11 js files
+* 346 Kb total size
+* 313 Kb minimized size
+* 32 Kb optimized
 
-====APOLLO==================================== 
-17 js files
-237 Kb total size
-195 Kb minimized size
-41 Kb optimized
+=== APOLLO
+* 17 js files
+* 237 Kb total size
+* 195 Kb minimized size
+* 41 Kb optimized
 
-====KASJAUNS==================================== 
-7 js files
-237 Kb total size
-179 Kb minimized size
-57 Kb optimized
+=== KASJAUNS
+* 7 js files
+* 237 Kb total size
+* 179 Kb minimized size
+* 57 Kb optimized
 
-====DRAUGIEM==================================== 
-9 js files
-310 Kb total size
-231 Kb minimized size
-79 Kb optimized
+=== DRAUGIEM
+* 9 js files
+* 310 Kb total size
+* 231 Kb minimized size
+* 79 Kb optimized
 
-====SPOKI==================================== 
-15 js files
-542 Kb total size
-445 Kb minimized size
-96 Kb optimized
+=== SPOKI
+* 15 js files
+* 542 Kb total size
+* 445 Kb minimized size
+* 96 Kb optimized
