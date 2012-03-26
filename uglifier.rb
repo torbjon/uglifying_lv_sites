@@ -51,7 +51,7 @@ puts get_js_sizes("INBOX", "http://www.inbox.lv")
 puts get_js_sizes("DELFI", "http://www.delfi.lv")
 puts get_js_sizes("1188", "http://www.1188.lv")
 puts get_js_sizes("APOLLO", "http://www.apollo.lv")
+puts get_js_sizes("DIENA", "http://www.diena.lv")
 puts get_js_sizes("KASJAUNS", "http://www.kasjauns.lv")
 puts get_js_sizes("DRAUGIEM", "http://www.draugiem.lv")
 puts get_js_sizes("SPOKI", "http://www.spoki.lv")
-

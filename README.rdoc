@@ -48,6 +48,12 @@
 * 195 Kb compressed size
 * 41 Kb diff
 
+=== DIENA
+* 9 js files
+* 415 Kb uncompressed size
+* 367 Kb compressed size
+* 47 Kb diff
+
 === KASJAUNS
 * 7 js files
 * 237 Kb uncompressed size
