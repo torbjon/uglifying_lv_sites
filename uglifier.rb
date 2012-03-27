@@ -8,19 +8,19 @@ require "uri"
 
 def get_js_sizes(title, url)
   rezult = "\n"
-  rezult += "====" + title + "==================================== \n"
+  rezult += "=== " + title + " \n"
   @html = Nokogiri::HTML(open(url), nil, 'UTF-8')
   js_count, total_max, total_min, js_inline_count, inline_js, inline_min_js  = 0, 0, 0, 0, "", ""
 
   #====JS FILES=======================
-  @html.xpath("//script//@src").grep(/.js/).each do |x|  
+  @html.xpath("//script//@src").each do |x|  
     # add http to //mc.yandex like urls
     x = "http:" + x.to_s if x.to_s.start_with?("//")
     # add http://domain to /assets like urls
     x = url + x.to_s unless x.to_s.include? "http"
 
     if x.to_s.include? "https"
-      uri = URI.parse(x)
+      uri = URI.parse(URI.encode(x.to_s.strip))
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = true
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -28,7 +28,8 @@ def get_js_sizes(title, url)
       request = Net::HTTP::Get.new(uri.request_uri)
       request = http.request(request).body
     else
-      request = Net::HTTP.get(URI(x)).force_encoding('UTF-8')
+      uri = URI.parse(URI.encode(x.to_s.strip))
+      request = Net::HTTP.get(uri).force_encoding('UTF-8')
     end
 
     str_ugly = Uglifier.compile(request.to_s, :toplevel => true)
