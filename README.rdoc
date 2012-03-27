@@ -26,30 +26,30 @@
     6 Kb total
 
 === INBOX
-* 14 js files
-* 389 Kb uncompressed size
-* 370 Kb compressed size
-* 18 Kb diff
+    14 js files
+    389 Kb uncompressed size
+    370 Kb compressed size
+    18 Kb diff
 
-* 16 inline times
-* 4030 Bytes inline js
-* 2657 Bytes inline compressed
-* 1373 Bytes inline diff
-* ====
-* 21 Kb total
+    16 inline times
+    4030 Bytes inline js
+    2657 Bytes inline compressed
+    1373 Bytes inline diff
+
+    21 Kb total
 
 === TVNET
-* 16 js files
-* 132 Kb uncompressed size
-* 115 Kb compressed size
-* 16 Kb diff
+  16 js files
+  132 Kb uncompressed size
+  115 Kb compressed size
+  16 Kb diff
 
-* 20 inline times
-* 9812 Bytes inline js
-* 6280 Bytes inline compressed
-* 3532 Bytes inline diff
-* ====
-* 23 Kb total
+  20 inline times
+  9812 Bytes inline js
+  6280 Bytes inline compressed
+  3532 Bytes inline diff
+
+  23 Kb total
 
 === DELFI
 * 19 js files
