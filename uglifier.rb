@@ -9,10 +9,11 @@ require "uri"
 def get_js_sizes(title, url)
   rezult = "\n"
   rezult += "====" + title + "==================================== \n"
-  @tvnet = Nokogiri::HTML(open(url), nil, 'UTF-8')
-  js_count, total_max, total_min  = 0, 0, 0
+  @html = Nokogiri::HTML(open(url), nil, 'UTF-8')
+  js_count, total_max, total_min, js_inline_count, inline_js, inline_min_js  = 0, 0, 0, 0, "", ""
 
-  @tvnet.xpath("//script//@src").grep(/.js/).each do |x|  
+  #====JS FILES=======================
+  @html.xpath("//script//@src").grep(/.js/).each do |x|  
     # add http to //mc.yandex like urls
     x = "http:" + x.to_s if x.to_s.start_with?("//")
     # add http://domain to /assets like urls
@@ -30,19 +31,45 @@ def get_js_sizes(title, url)
       request = Net::HTTP.get(URI(x)).force_encoding('UTF-8')
     end
 
-    str_ugly = Uglifier.compile(request.to_s, :toplevel => true, :unsafe => true)
-    proc = (request.size.to_i-str_ugly.size.to_i).to_f/request.size.to_f
+    str_ugly = Uglifier.compile(request.to_s, :toplevel => true)
+    proc = (request.size.to_i - str_ugly.size.to_i).to_f/request.size.to_f
     
     js_count += 1
     total_max += request.size.to_i
     total_min += str_ugly.size.to_i
-    # rezult += x.to_s + " | " + request.size.to_s + ", " + str_ugly.size.to_s + " > " + (proc*100.to_f).to_i.to_s + "%\n"
   end
 
+  #====INLINE=======================
+  @html.xpath("//script").each do |x|
+    if x.content.size > 0
+      # puts x.content
+      inline_js += x.content
+      
+      # remove stuff, that dont want to be compressed .gsub("<!--", "").gsub("-->", "")
+      begin
+        inline_min_js += Uglifier.compile(x.content.gsub("<!--", "").gsub("-->", "").to_s, :toplevel => true, :inline_script => true)
+      rescue
+        inline_min_js += x.content.to_s
+      end
+
+      js_inline_count += 1
+    end
+  end
+  
+  #====REZULTS=======================
   rezult += js_count.to_s + " js files\n"
   rezult += (total_max/1024).to_s + " Kb uncompressed size\n"
   rezult += (total_min/1024).to_s + " Kb compressed size\n"
   rezult += ((total_max - total_min)/1024).to_s + " Kb diff\n"
+
+  rezult += "\n"
+  rezult += js_inline_count.to_s + " inline times\n" 
+  rezult += inline_js.size.to_s + " Bytes inline js\n"
+  rezult += inline_min_js.size.to_s + " Bytes inline compressed\n"
+  rezult += (inline_js.size.to_i - inline_min_js.size.to_i).to_s + " Bytes inline diff\n"
+
+  rezult += "====\n"
+  rezult += (((total_max - total_min).to_i + inline_min_js.size.to_i)/1024).to_s + " Kb total"
 end
 
 puts get_js_sizes("SS", "http://www.ss.lv")
