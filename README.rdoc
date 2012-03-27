@@ -17,7 +17,7 @@
   55 Kb compressed size
   5 Kb diff
   
-  8 inline times
+  8 js inline times
   687 Bytes inline js
   451 Bytes inline compressed
   236 Bytes inline diff
@@ -30,7 +30,7 @@
   370 Kb compressed size
   18 Kb diff
 
-  16 inline times
+  16 js inline times
   4030 Bytes inline js
   2657 Bytes inline compressed
   1373 Bytes inline diff
@@ -43,7 +43,7 @@
   115 Kb compressed size
   16 Kb diff
 
-  20 inline times
+  20 js inline times
   9812 Bytes inline js
   6280 Bytes inline compressed
   3532 Bytes inline diff
@@ -56,7 +56,7 @@
   192 Kb compressed size
   24 Kb diff
 
-  78 inline times
+  78 js inline times
   10838 Bytes inline js
   10164 Bytes inline compressed
   674 Bytes inline diff
@@ -69,7 +69,7 @@
   313 Kb compressed size
   32 Kb diff
 
-  15 inline times
+  15 js inline times
   2267 Bytes inline js
   1888 Bytes inline compressed
   379 Bytes inline diff
@@ -82,7 +82,7 @@
   367 Kb compressed size
   47 Kb diff
 
-  21 inline times
+  21 js inline times
   2762 Bytes inline js
   2005 Bytes inline compressed
   757 Bytes inline diff
@@ -95,7 +95,7 @@
   195 Kb compressed size
   41 Kb diff
 
-  59 inline times
+  59 js inline times
   24498 Bytes inline js
   18145 Bytes inline compressed
   6353 Bytes inline diff
@@ -108,7 +108,7 @@
   179 Kb compressed size
   57 Kb diff
 
-  59 inline times
+  59 js inline times
   17093 Bytes inline js
   13245 Bytes inline compressed
   3848 Bytes inline diff
@@ -121,7 +121,7 @@
   231 Kb compressed size
   79 Kb diff
 
-  4 inline times
+  4 js inline times
   3673 Bytes inline js
   3495 Bytes inline compressed
   178 Bytes inline diff
@@ -134,7 +134,7 @@
   445 Kb compressed size
   96 Kb diff
 
-  22 inline times
+  22 js inline times
   3244 Bytes inline js
   2578 Bytes inline compressed
   666 Bytes inline diff
