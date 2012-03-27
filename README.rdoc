@@ -11,17 +11,17 @@
 
 == Rezults
 
-=== SS
-  7 js files
+=== SS 
+  9 js files
   61 Kb uncompressed size
   55 Kb compressed size
   5 Kb diff
-  
+
   8 js inline times
   687 Bytes inline js
   451 Bytes inline compressed
   236 Bytes inline diff
-  
+  ====
   6 Kb total
 
 === INBOX
@@ -30,11 +30,11 @@
   370 Kb compressed size
   18 Kb diff
 
-  16 js inline times
-  4030 Bytes inline js
-  2657 Bytes inline compressed
-  1373 Bytes inline diff
-
+  19 js inline times
+  4350 Bytes inline js
+  2933 Bytes inline compressed
+  1417 Bytes inline diff
+  ====
   21 Kb total
 
 === TVNET
@@ -43,24 +43,24 @@
   115 Kb compressed size
   16 Kb diff
 
-  20 js inline times
-  9812 Bytes inline js
-  6280 Bytes inline compressed
-  3532 Bytes inline diff
-
+  21 js inline times
+  10168 Bytes inline js
+  6564 Bytes inline compressed
+  3604 Bytes inline diff
+  ====
   23 Kb total
 
 === DELFI
-  19 js files
-  217 Kb uncompressed size
-  192 Kb compressed size
+  20 js files
+  219 Kb uncompressed size
+  195 Kb compressed size
   24 Kb diff
 
   78 js inline times
   10838 Bytes inline js
   10164 Bytes inline compressed
   674 Bytes inline diff
-
+  ====
   34 Kb total
 
 === 1188
@@ -73,7 +73,7 @@
   2267 Bytes inline js
   1888 Bytes inline compressed
   379 Bytes inline diff
-
+  ====
   34 Kb total
 
 === DIENA
@@ -86,7 +86,7 @@
   2762 Bytes inline js
   2005 Bytes inline compressed
   757 Bytes inline diff
-
+  ====
   49 Kb total
 
 === APOLLO
@@ -99,7 +99,7 @@
   24498 Bytes inline js
   18145 Bytes inline compressed
   6353 Bytes inline diff
-
+  ====
   59 Kb total
 
 === KASJAUNS
@@ -109,10 +109,10 @@
   57 Kb diff
 
   59 js inline times
-  17093 Bytes inline js
-  13245 Bytes inline compressed
+  17075 Bytes inline js
+  13227 Bytes inline compressed
   3848 Bytes inline diff
-
+  ====
   70 Kb total
 
 === DRAUGIEM
@@ -125,18 +125,18 @@
   3673 Bytes inline js
   3495 Bytes inline compressed
   178 Bytes inline diff
-
+  ====
   82 Kb total
 
 === SPOKI
-  15 js files
-  542 Kb uncompressed size
-  445 Kb compressed size
-  96 Kb diff
+  20 js files
+  389 Kb uncompressed size
+  298 Kb compressed size
+  90 Kb diff
 
   22 js inline times
   3244 Bytes inline js
   2578 Bytes inline compressed
   666 Bytes inline diff
-
-  98 Kb total
+  ====
+  93 Kb total
