@@ -13,17 +13,17 @@
 == Rezults
 
 === SS
-* 7 js files
-* 61 Kb uncompressed size
-* 55 Kb compressed size
-* 5 Kb diff
+    * 7 js files
+    * 61 Kb uncompressed size
+    * 55 Kb compressed size
+    * 5 Kb diff
 
-* 8 inline times
-* 687 Bytes inline js
-* 451 Bytes inline compressed
-* 236 Bytes inline diff
-* ====
-* 6 Kb total
+    * 8 inline times
+    * 687 Bytes inline js
+    * 451 Bytes inline compressed
+    * 236 Bytes inline diff
+    * ====
+    * 6 Kb total
 
 === INBOX
 * 14 js files
