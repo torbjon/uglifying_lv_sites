@@ -69,7 +69,7 @@ def get_js_sizes(title, url)
   rezult += inline_min_js.size.to_s + " Bytes inline compressed\n"
   rezult += (inline_js.size.to_i - inline_min_js.size.to_i).to_s + " Bytes inline diff\n"
 
-  rezult += "====\n"
+  rezult += "\n"
   rezult += (((total_max - total_min).to_i + inline_min_js.size.to_i)/1024).to_s + " Kb total"
 end
 

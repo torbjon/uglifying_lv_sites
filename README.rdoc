@@ -21,7 +21,7 @@
   687 Bytes inline js
   451 Bytes inline compressed
   236 Bytes inline diff
-  ====
+  
   6 Kb total
 
 === INBOX
@@ -34,7 +34,7 @@
   4350 Bytes inline js
   2933 Bytes inline compressed
   1417 Bytes inline diff
-  ====
+
   21 Kb total
 
 === TVNET
@@ -47,7 +47,7 @@
   10168 Bytes inline js
   6564 Bytes inline compressed
   3604 Bytes inline diff
-  ====
+  
   23 Kb total
 
 === DELFI
@@ -60,7 +60,7 @@
   10838 Bytes inline js
   10164 Bytes inline compressed
   674 Bytes inline diff
-  ====
+  
   34 Kb total
 
 === 1188
@@ -73,7 +73,7 @@
   2267 Bytes inline js
   1888 Bytes inline compressed
   379 Bytes inline diff
-  ====
+  
   34 Kb total
 
 === DIENA
@@ -86,7 +86,7 @@
   2762 Bytes inline js
   2005 Bytes inline compressed
   757 Bytes inline diff
-  ====
+  
   49 Kb total
 
 === APOLLO
@@ -99,7 +99,7 @@
   24498 Bytes inline js
   18145 Bytes inline compressed
   6353 Bytes inline diff
-  ====
+  
   59 Kb total
 
 === KASJAUNS
@@ -112,7 +112,7 @@
   17075 Bytes inline js
   13227 Bytes inline compressed
   3848 Bytes inline diff
-  ====
+  
   70 Kb total
 
 === DRAUGIEM
@@ -125,7 +125,7 @@
   3673 Bytes inline js
   3495 Bytes inline compressed
   178 Bytes inline diff
-  ====
+  
   82 Kb total
 
 === SPOKI
@@ -138,5 +138,5 @@
   3244 Bytes inline js
   2578 Bytes inline compressed
   666 Bytes inline diff
-  ====
+  
   93 Kb total
